@@ -1,0 +1,232 @@
+/*
+Name: Kaitlyn Kelly
+Date: 7/5/25
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for images */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Styles rules for mobile viewport */
+
+/* Show mobile class & hide tab-desk class */
+.mobile {
+    display: block;
+}
+
+.tab-desk {
+    display: none;
+}
+
+/* Style rules for header area */
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Urbanist", serif;
+    font-weight: 700;
+    color: #0e3ca2;
+    padding-top: 4%;
+}
+
+header h3 {
+    font-family: "Domine", sans-serif;
+    color: #6d98ba;
+    padding-bottom: 2%;
+}
+
+/* Style rules for nav area */
+
+nav {
+    background-color: #6d98ba;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    font-size: 1.25em;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 700;
+    display: block;
+    border-top: solid 0.5px #f7f7f2;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    color: #121113;
+    padding: 0.5em;
+}
+
+nav li a:hover {
+    background-color: #dfb317;
+}
+
+/* Styles rules for main area */
+main {
+    margin: 0 auto;
+    width: 90%;
+}
+
+main h2 {
+    font-family: "Urbanist", sans-serif;
+    font-weight: 700;
+    color: #072b7b;
+    text-align: center;
+    padding: 3% 0 3%;
+}
+
+main h3 {
+    font-family: "Domine", serif;
+    color: #072b7b;
+    padding: 1%;
+    text-align: center;
+}
+
+#main-left p, #main-right p {
+    text-align: center;
+    font-family: "Domine", serif;
+    color: #121113;
+    line-height: 1.5em;
+}
+
+#main-left a, #main-right a {
+    text-decoration: none;
+    background-color: #6d98ba;
+    padding: 0.75em;
+    color: #121113;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#main-left a:hover, #main-right a:hover {
+    background-color: #dfb317;
+    color: #121113;
+}
+
+#main-left, #main-right {
+    margin-bottom: 10%;
+}
+
+.round {
+    border-radius: 5px;
+}
+
+/* Style rules for footer area */
+footer {
+    background-color: #072b7b;
+}
+
+footer p {
+    text-align: center;
+    color: #f7f7f2;
+    font-family: "Domine", serif;
+    font-size: 0.75em;
+    padding: 0;
+}
+
+footer p:first-child {
+    padding-top: 2%;
+}
+
+footer p:last-child {
+    padding-bottom: 2%;
+}
+
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 769px) {
+
+    /* Tablet Viewport: Show tab-desk class & hide mobile */
+    .tab-desk {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    /* Tablet Viewport: Style rules for header area */
+    header img {
+        width: 100%;
+    }
+
+    /* Tablet Viewport: Style rules for nav area */
+    nav {
+        width: 100%;
+        background-color: #6d98ba;
+    }
+
+    nav li {
+        border-top: none;
+        display: inline-block;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+
+    nav li a {
+        color:#121113;
+    }
+
+    /* Tablet Viewport: Style rules for main content */
+    h2 {
+        font-size: xx-large;
+    }
+    
+    #main-left {
+        float: left;
+        width: 48%;
+    }
+
+    #main-right {
+        float: right;
+        width: 48%;
+    }
+
+    /* Tablet Viewport: Styles rules for footer area */
+    footer {
+        clear: right;
+    }
+
+    /* Media query for Desktop Viewport */
+    @media screen and (min-width: 1280px) {
+
+    /* Currently no Style Rules for Desktop Viewport */
+
+    }
+
+    /*Media query for large Desktop Viewports */
+    @media screen and (min-width: 1921px) {
+        
+    /* Large Desktop Viewport: Style rules for body */
+
+    body {
+        background:linear-gradient(#072b7b, #6d98ba);
+    }
+
+    #wrapper {
+        width: 1920px;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+    
+    }
+
+}
+
