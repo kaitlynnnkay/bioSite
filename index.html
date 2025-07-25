@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <!--
     Student Name: Kaitlyn Kelly
-    File Name: template.html
+    File Name: index.html
     Date: 07/04/25
 -->
 <html lang="en">
 <head>
     <title>Nicholas Dawson: A Biographical Site</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles-new.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,56 +17,84 @@
 
 <body>
 
-    <div id="wrapper">
+  <div id="wrapper">
+    <header>
 
-        <header>
-            <div class="tab-desk">
-                <a href="index.html"><img src="images/Biosite-HeroImage.jpg" alt="Collage of photos featuring Nicholas Dawson"></a>
-            </div>
+      <div>
+        <h1 class="header-one">NICHOLAS</h1>
+        <h1 class="header-two">DAWSON</h1>
+        <h3>a biographical site</h3>
+      </div>
 
-            <div class="mobile">
-                <h1>Nicholas Dawson</h1>
-                <h3>a biographical site</h3>
-            </div>
-        </header>
+    </header>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="hobby.html">HOBBIES</a></li>
-            </ul>
-        </nav>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="hobbies.html">HOBBIES</a></li>
+      </ul>
+    </nav>
+
+    <div class="tab-desk">
+        <div id="hero-image">
+          <img src="images/Nicholas-Dawson-BioSite-Header-NoText.jpg" class="hero-default" alt="Nicholas Dawson posed and smiling, with the text 'Nicholas Dawson'">
+          <img src="images/Nicholas-Dawson-BioSite-Header-Text.jpg" class="hero-hover" alt="Nicholas Dawson posed and smiling, with the text 'Hi, I'm Nicholas Dawson. Allow my Wife to Introduce Me.'">
+        </div>
+    </div>
+
+    <div class="mobile">
+        <img src="images/Blue-Wave.jpg" alt="Blue wavy line transition" class="mobile-hero">
+    </div>
 
     <!-- Use main area to add the main content to the webpage -->
-        <main>
+    <main>
 
-            <h2>The Life of Nicholas Dawson</h2>
+      <div class="color-wrapper">
+        <h1 class="main-heading-one">THE LIFE OF</h1>
+        <h1 class="main-heading-two">NICHOLAS</h1>
+        <h1 class="main-heading-three">DAWSON</h1>
 
-            <div id="main-left">
-                <img src="images/index-nick-about-preview.jpg" alt="Nick smiling while laying on the grass" class="round ">
-                <h3>About</h3>
-                <p>Born August 9, 1991, Nicholas Dawson has lived many chapters in his almost 34 years of life. From growing up in D.C., to his adolescence in the midwest, to being an enlisted Airmen, and now a husband and first-time father, Nick's path continues to take him to new places.</p>
-                <p><a href="about.html" class="round">Learn More About Nick</a></p>
-            </div>
+        <div id="home-grid">
 
-            <div id="main-right">
-                <img src="images/index-nick-hobbies-preview.JPG" alt="Group photo of the Nebraska Blues group" class="round">
-                <h3>Hobbies</h3>
-                <p>A man of varying interests, Nick Dawson routinely engages in worldwide travel, tiki culture, and all major (and minor) sports fandoms. His most time-consuming hobby, though, is his role as the Steward of the Nebraska Blues chapter of the Chelsea in America organization.</p>
-                <p><a href="hobbies.html" class="round">Learn More About Nick's Stewardship</a></p>
-            </div>
+          <div class="home-grid-rows">
+            <img src="images/Nick-About-Home.jpg" alt="Nick as a kid in a Superman costume">
+          </div>
 
-        </main>
+          <div class="home-grid-rows">
+            <h2>About</h2>
+            <p>Born August 9, 1991, Nicholas Dawson has lived many chapters in his almost 34 years. His life began in Columbia, Maryland. From there, Nick’s family bounced back and forth over the years between the D.C. area and Bellevue, NE. It was in Bellevue that Nick met his now wife (me!). After high school, and another move back to D.C., Nick enlisted in the Air Force.</p>
+            <br>
+            <p>While stationed at Wright-Patterson Air Force Bace in Dayton, OH, for his entire four-year stint, Dawson adopted the first of his dogs, Guinness. After re-connecting with future spouse, Nick, yet again, relocated to Nebraska. Then came the marriage, a second dog adoption (welcome to the family, Kona!), and a baby (love you, DJ!).</p>
+            <p><a href="about.html">Learn More</a></p>
+          </div>
 
-        <footer>
-            <p>Created 2025 by Kaitlyn Kelly</p>
-            <p>Bellevue University</p>
-            <p>Web Development Cohort</p>
-            <p>WEB200: Fundamentals of Web Development</p>
-        </footer>
+          <div class="home-grid-rows">
+            <img src="images/Nick-Hobbies-Home.jpg" alt="Group photo of the Nebraska Blues group">
+          </div>
 
-    </div>
+          <div class="home-grid-rows">
+            <h2>Hobbies</h2>
+            <p>Though he can most often be found in his living room attempting to play the PS5 while wrangling his 10 month old son and two dogs, Nick Dawson is, undoubtedly, a man of varying interests. When life allows, Nick routinely engages in worldwide travel, tiki culture, all major sports fandoms, and Twitter doom scrolling (if that counts as an interest).</p>
+            <br>
+            <p>His most time-consuming hobby, though, is his role as the Steward of the Nebraska Blues chapter of the Chelsea in America organization; an interest that has taken him to London, Orlando, and mostly, a local pub for 6am soccer matches. Nick’s role within the Chelsea in America organization is born of his love for Chelsea Foot Club, an English Premier League team.</p>
+            <p><a href="hobbies.html">Learn More</a></p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </main>
+
+    <footer>
+      <p>Created 2025 by Kaitlyn Kelly</p>
+      <p>Bellevue University</p>
+      <p>Web Development Cohort</p>
+      <p>WEB200: Fundamentals of Web Development</p>
+    </footer>
+
+  </div>
 
 </body>
 
